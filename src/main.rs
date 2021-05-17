@@ -1,5 +1,3 @@
-extern crate notify;
-
 use notify::{watcher, DebouncedEvent, RecursiveMode, Watcher};
 use std::env;
 use std::path::{Path, PathBuf};
